@@ -25,6 +25,12 @@ data(gapminder_unfiltered)
 gapminder_unfiltered %>% 
   group_by(year) %>% 
   slice_max(order_by = lifeExp) ->Sumdat
+
+#Testing whether new changes are updated
 ```
 
+
+```{r}
+4+4
+```
 
