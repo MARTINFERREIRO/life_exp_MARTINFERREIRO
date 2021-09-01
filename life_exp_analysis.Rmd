@@ -1,5 +1,5 @@
 ---
-title: "Examine life expectancy"
+title: "Life expectancy analysis"
 author: "Martin Ferrreiro"
 date: "8/31/2021"
 output: pdf_document
@@ -12,12 +12,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 library(tidyverse)
-
-
+library(gapminder)
+data(gapminder_unfiltered)
 
 ```
 
 ```{r}
-sumdat<-data(mtcars)
+#Finding maximum life expectancy
+
+gapminder_unfiltered %>% 
+  group_by(year) %>% 
+  slice_max(order_by = lifeExp) ->Sumdat
 ```
+
 
