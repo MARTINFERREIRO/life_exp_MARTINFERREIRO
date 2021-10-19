@@ -17,7 +17,7 @@ data(gapminder_unfiltered)
 
 ```
 
-Making a small change\
+Making a small change2\
 ```{r}
 #Finding maximum life expectancy
 #Testing push to git hub
