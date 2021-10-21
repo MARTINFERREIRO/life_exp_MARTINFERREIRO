@@ -2,12 +2,13 @@
 title: "Life expectancy analysis"
 author: "Martin Ferrreiro"
 date: "8/31/2021"
-output: pdf_document
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 
 
 ```{r}
@@ -17,7 +18,7 @@ data(gapminder_unfiltered)
 
 ```
 
-Making a small change2\
+This is a test to see if there are changes.\
 ```{r}
 #Finding maximum life expectancy
 #Testing push to git hub
